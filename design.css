@@ -1,0 +1,46 @@
+body{
+    
+    background-color: black;
+    background-size: 100%;
+    
+}
+.meny a{
+    display: inline;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 16px;
+    font-family: 'Teko', sans-serif;
+    background-color: none;
+    color: darkred;
+    float: right;
+    padding-top: 35px;
+    padding-right: 25px;
+}
+
+.meny a:hover{
+    background-color: none;
+    font-weight: bold;
+
+}
+
+.mitten {
+    background-image: url("bil.jpg");
+    background-position: center;
+    background-size: 100%;
+    
+    height: 70vh;
+    width: 100%;
+    padding-top: 15vh;
+
+
+}
+.header {
+    background-color: beige;
+    color: darkred;
+    float: left;
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+}
