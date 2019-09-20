@@ -1,8 +1,24 @@
 body{
-    
-    background-color:beige;
+
+        background-image: url("bil.jpg");
+        background-size: 100%;
+}
+.body2{
+    background-image: url("garage.jpg");
     background-size: 100%;
-    
+}
+.body3{
+    background-image: url("biltvätt.jpg");
+    background-size: 100%;
+}
+
+.body5{
+    background-image: url("telefon.jpg");
+    background-size: 100%;
+}
+.body6{
+    background-image: url("bmw.jpg");
+    background-size: 100%;
 }
 .meny a{
     display: inline;
@@ -11,7 +27,7 @@ body{
     text-align: left;
     font-family: 'Teko', sans-serif;
     background-color: none;
-    color: white;
+    color:beige;
     padding-top: 35px;
     padding-right: 25px;
     float: left;
@@ -25,7 +41,7 @@ body{
 }
 
 .mitten {
-    background-image: url("bil.jpg");
+    
     background-position: center;
     background-size: 100%;
     
@@ -36,7 +52,7 @@ body{
 
 }
 .mitten2{
-    background-image: url("garage.jpg");
+    
     background-position: center;
     background-size: 100%;
     
@@ -45,7 +61,7 @@ body{
     padding-top: 15vh;
 }
 .mitten3{
-    background-image: url("biltvätt.jpg");
+    
     background-position: center;
     background-size: 100%;
     
@@ -53,48 +69,110 @@ body{
     width: 100%;
     padding-top: 15vh;
 }
+.body4{
+    background-image: url("stadkarta.jpg");
+}
 .header {
-    background-color: beige;
-    color: darkred;
-    height: 15vh;
-    width: 100%;
+    background-image: none;
+    background-color:none;
+    color: beige;
+    height: none;
+    width: none;
     text-align: center;
     font-family: 'Audiowide', cursive;
-    font-size: 25px;
-    text-shadow: 2px 4px darkblue;
+    font-size: 30px;
+    text-shadow: 3px 4px  darkred;
 }
+.header2{
+    background-image: none;
+    background-color:none;
+    color: beige;
+    height: none;
+    width: none;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    text-shadow: 3px 4px  darkred;
+}
+.header3{
+    background-image: none;
+    background-color:none;
+    color: beige;
+    height: none;
+    width: none;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    text-shadow: 3px 4px  darkred;
+}
+.header4{
+    background-image: none;
+    background-color:none;
+    color: beige;
+    height: none;
+    width: none;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    text-shadow: 3px 4px  darkred;
+}
+.header5{
+    background-image: none;
+    background-color:none;
+    color: beige;
+    height: none;
+    width: none;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    text-shadow: 3px 4px  darkred;
+}
+.header6{
+    background-image: none;
+    background-color:none;
+    color: beige;
+    height: none;
+    width: none;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    text-shadow: 3px 4px  darkred;
+}
+
 .ruta1 {
-    width: 250px;
+    width: 190px;
     padding: 25px;
     border: 5px solid;
     
-    background-color: beige;
-    color: darkred;
-    text-shadow: 1px 1px darkblue;
+    background-color:beige;
+    color: darkblue;
+    text-shadow: 1px 1px none;
     text-align: center;
     font-size: 20px;
-
+    font-family: 'Marko One', serif;
 }
 .ruta2 {
     width: 190px;
     padding: 25px;
     border: 5px solid;
     
-    background-color: beige;
-    color: darkred;
-    text-shadow: 1px 1px darkblue;
+    background-color:beige;
+    color: darkblue;
+    text-shadow: 1px 1px none;
     text-align: center;
     font-size: 20px;
-
+    font-family: 'Marko One', serif;
 }
 .ruta3{
-    width: 190px;
-   border: 2px solid;
-    height: 25px;
-    background-color:beige;
-    color: darkred;
+    width: 380px;
+   border: 3px solid;
+
+    background-color: beige;
+    color: darkblue;
     font-size: 20px;
+    margin-right: 100px;
     margin: 25px;
+    font-family: 'Marko One', serif;
 }
 .ruta4{
     width: 190px;
@@ -102,66 +180,115 @@ body{
     border: 5px solid;
     
     background-color: beige;
-    color: darkred;
-    text-shadow: 1px 1px darkblue;
+    color: darkblue;
+    text-shadow: 1px 1px none;
     text-align: center;
     font-size: 20px;
-    float: right;
+    float: left;
+    font-family: 'Marko One', serif;
 }
 .ruta5{
     width: 190px;
     padding: 25px;
     border: 5px solid;
     
-    background-color: beige;
-    color: darkred;
-    text-shadow: 1px 1px darkblue;
+    background-color:beige;
+    color: darkblue;
+    text-shadow: 1px 1px none;
     text-align: center;
     font-size: 20px;
-    float: right;
+    float: left;
     margin: 25px;
+    font-family: 'Marko One', serif;
 }
 .ruta6{
-    width: 190px;
+    width: 260px;
     padding: 25px;
     border: 5px solid;
-    float: right;
+    float: left;
     background-color: beige;
-    color: darkred;
-    text-shadow: 1px 1px darkblue;
+    color: darkblue;
+    text-shadow: 1px 1px none;
     text-align: center;
     font-size: 20px;
     margin 25px;
+    font-family: 'Marko One', serif;
 }
 .ruta7{
-    width: 190px;
-    border: 2px solid;
-     height: 25px;
-     background-color:beige;
+    width: 220px;
+    border: 3px solid;
+     height: 40px;
+     background-color: beige;
      color: darkred;
-     font-size: 20px;
-     margin: 25px;
-     float: right;
+     font-size: 25px;
+     float:  right;
+     margin: 150px;
+     font-family: 'Marko One', serif;
+      
+}
+.ruta8{
+    width: 340px;
+    border: 3px solid;
      
+     background-color:beige;
+     color: darkblue;
+     font-size: 20px;
+     float:  right;
+     margin: 150px;
+     font-family: 'Marko One', serif;
+}
+.ruta9{
+    width: 380px;
+    border: 3px solid;
+     
+     background-color:beige;
+     color: darkblue;
+     font-size: 20px;
+     float:  right;
+     margin: 40px;
+     margin-top: 150px; 
+     font-family: 'Marko One', serif;  
+}
+.ruta10{
+    width:1300px;
+    border: 3px solid;
+     
+     background-color:beige;
+     color: darkblue;
+     font-size: 20px;
+     float:  right;
+     margin: 40px;
+     margin-top: 150px;  
+     font-family: 'Marko One', serif;
+}
+
+.label{
+    font-size: 20px;
+    background-color:white;
+    float: right;
+}
+.label1{
+  font-size: 16px;  
 }
 .knapp1 {
     width: 100px;
     border: 2px solid;
     height: 50px;
     background-color: beige;
-    color: darkred;
+    color: darkblue;
     font-size: 15px;
     margin: 25px;
-    
+    font-family: 'Marko One', serif;
 }
 .knapp2 {
     width: 100px;
     border: 2px solid;
     height: 50px;
-    background-color: beige;
-    color: darkred;
+    background-color:beige;
+    color: darkblue;
     font-size: 15px;
     margin: 25px;
+    font-family: 'Marko One', serif;
 }
 .placering{
 float: right;
@@ -179,8 +306,29 @@ margin: 25px;
     text-align: left;
 }
 .välj{
-    font-size: 40px;
+    font-size: 25px;
+    float: left;
+    float: none;
 }
 .submit{
-    font-size: 20px;
+
+font-size: 30px;
+background-color: white;
+text-align: center;
+color: darkblue;
+font-family: 'Marko One', serif;
+
+}
+.submit1{
+    font-size: 16px;
+    font-family: 'Marko One', serif;
+}
+.submit2{
+    font-size: 25px;
+    float: right;
+    margin-top: 120px;
+}
+.bild1{
+ 
+    
 }
